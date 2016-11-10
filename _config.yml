@@ -1,0 +1,37 @@
+permalink: /blog/:year/:month/:title.html 
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+highlights: pygments
+url: 
+cdn_url: 7u2t01.com1.z0.glb.clouddn.com
+lsi: false
+safe: true
+timezone: Asia/Chengdu
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+JB :
+  IMAGE_PATH : http://www.saq691.com/images
+
+# presonal config
+domain: http://www.saq691.com
+title: Saq691-孙爱强
+description: Draw my life with code
+author: Sun.AiQiang
+email: saq691@126.com
+github: saq691
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:
