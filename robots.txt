@@ -1,7 +1,7 @@
-# robots.txt generated at http://tool.chinaz.com/robots/ 
+# robots.txt generated at http://www.saq691.com/robots/ 
 User-Agent: Baiduspider
 Disallow:
 
 User-agent: *
 Disallow: 
-Sitemap: http://coolshell.info/sitemap.xml
+Sitemap: http://www.saq691.com/sitemap.xml
